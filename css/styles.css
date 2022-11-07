@@ -137,11 +137,11 @@ color: #2196F3;
     letter-spacing: 0.02em;
 }
 
-.main {
+.main--bg {
     background-color: #2F303A;
 }
 
-.main-header {
+.main__header {
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
@@ -151,7 +151,7 @@ color: #2196F3;
     text-transform: uppercase;
     color: #FFFFFF;
 }
-.main-button {    
+.main__button {    
     background-color: #2196F3;
     font-family: Roboto;
     font-weight: 700;
@@ -168,13 +168,13 @@ color: #2196F3;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.main-button:hover {
+.main__button:hover {
     background-color: #FFFFFF;
     color: var(--color-accent);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-.advantages-title {
+.advantages__title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -183,14 +183,14 @@ color: #2196F3;
     letter-spacing: 0.03em;
 }
 
-.advantages-text {
+.advantages__text {
     font-size: 14px;
     line-height: 1.71;
     color: #757575;
     letter-spacing: 0.03em;
 }
 
-.services {
+.services-list__header {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -202,7 +202,7 @@ color: #2196F3;
     background-color: #F5F4FA;
 }
 
-.team-header {
+.team__header {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -210,7 +210,7 @@ color: #2196F3;
     letter-spacing: 0.03em;
 }
 
-.team-member {
+.team__member-name {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -218,7 +218,7 @@ color: #2196F3;
     letter-spacing: 0.03em;
 }
 
-.team-resp {
+.team__member-role {
     font-size: 16px;
     line-height: 1.19;
     color: #757575;
@@ -229,7 +229,7 @@ color: #2196F3;
     background-color: #2F303A;
 }
 
-.footer-logo-web {
+.footer-logo__web {
     font-family: Raleway;
     font-weight: 700;
     font-size: 26px;
@@ -238,7 +238,7 @@ color: #2196F3;
     letter-spacing: 0.03em;
 }
 
-.footer-logo-studio {
+.footer-logo__studio {
     font-family: Raleway;
     font-weight: 700;
     font-size: 26px;
@@ -404,7 +404,7 @@ color: #2196F3;
     margin-left: 10px;
 }
 
-.main {
+.main--bg {
     display: flex;
     align-items: center;
     border: 1px solid #000000;
@@ -413,14 +413,14 @@ color: #2196F3;
     padding-bottom: 200px;
 }
 
-.main-header {
+.main__header {
     display: flex;
     max-width: 696px;
     text-align: center;
     margin: 0 auto;
 }
 
-.main-button {
+.main__button {
     display:flex;
     margin: 0 auto;
     padding: 10px 32px;
@@ -440,7 +440,7 @@ color: #2196F3;
     padding-bottom: 94px;
 }
 
-.advantages-list {
+.advantages__list {
     display: flex;
     gap: 30px;
 }
@@ -449,14 +449,14 @@ color: #2196F3;
     width: 270px;
 }
 
-.advantages-text {
+.advantages__text {
     padding-top: 0;
     padding-bottom: 0;
     margin-top: 0;
     margin-bottom: 0;
 }
 
-.advantages-title {
+.advantages__title {
     margin-bottom: 10px;
 }
 
@@ -465,7 +465,7 @@ color: #2196F3;
     margin-bottom: 0;
 }
 
-.services {
+.services-list__header {
     text-align: center;
     border-radius: nullpx;
     margin-bottom: 50px;
@@ -475,7 +475,7 @@ color: #2196F3;
     padding-bottom: 94px;
 }
 
-.services-list-container {
+.services-list__container {
     display: flex;
     justify-content: center;
     gap: 30px;
@@ -486,34 +486,34 @@ color: #2196F3;
     padding-bottom: 94px;
 }
 
-.team-header {
+.team__header {
     text-align: center;
     border-radius: nullpx;
     margin-bottom: 50px;
 }
 
-.team-cards {
+.team__cards {
     display: flex;
     align-items: center;
     gap: 30px;
     justify-content: center;
 }
 
-.team-member-intro {
+.team__member-intro {
     padding-top: 30px;
 }
 
-.team-member {
+.team__member-name {
     text-align: center;
 }
 
-.team-resp {
+.team__member-role {
     text-align: center;
     margin-top: 10px;
     margin-bottom: 0;
 }
 
-.team-cards-item {
+.team__cards-item {
     background-color: #FFFFFF;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
@@ -651,7 +651,7 @@ color: #2196F3;
     height: auto;
 }
 
-.main.bg {
+.main--bg {
     max-width: 1600px;
     height: 600px;
     margin-left: auto;
@@ -659,7 +659,7 @@ color: #2196F3;
     background-image: linear-gradient( to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4) ), url(../images/hero.jpg);
 }
 
-.ad1, .ad2, .ad3, .ad4 {
+.advantages__1, .advantages__2, .advantages__3, .adavantages__4 {
     background-color: #F5F4FA;
     width: 270px;
     height: 120px;
@@ -669,7 +669,7 @@ color: #2196F3;
     border-radius: 4px;
 }
 
-.advantages-title {
+.advantages__title {
     margin-top: 30px;
 }
 
@@ -681,7 +681,7 @@ color: #2196F3;
     margin-bottom: 30px;
 }
 
-.net-link {
+.net-list__link {
     width: 44px;
     height: 44px;
     border-radius: 50%;
@@ -690,25 +690,25 @@ color: #2196F3;
     justify-content: center;
 } 
 
-.net-link:hover,
-.net-link:focus {
+.net-list__link:hover,
+.net-list__link:focus {
     background-color: #2196F3;
 }
 
-.net-link:hover .net-icon {
+.net-list__link:hover .net-list__icon {
     fill: #FFFFFF;
 }
 
-.net-link:focus .net-icon {
+.net-list__link:focus .net-list__icon {
     fill: #FFFFFF;
 }
 
-.net-icon {
+.net-list__icon {
     fill: #afb1b8;
 }
 
-.net-icon:hover,
-.net-icon:focus {
+.net-list__icon:hover,
+.net-list__icon:focus {
     fill: #FFFFFF;
 }
 
@@ -717,7 +717,7 @@ color: #2196F3;
     padding-bottom: 94px;
 }
 
-.clients-header {
+.clients__header {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -728,20 +728,20 @@ color: #2196F3;
      color: #212121;
 }
 
-.clients-header {
+.clients__header {
     margin-bottom: 50px;
 }
 
-.clients-list {
+.clients__list {
     display: flex;
     gap: 30px;
 }
 
-.clients-items {
+.clients__item {
   width: calc((100% - 150px) / 6);
 }
 
-.clients-link {
+.clients__link {
     width: 170px;
     height: 92px;
     border: 1px solid #AFB1B8;
@@ -752,25 +752,25 @@ color: #2196F3;
     border-radius: 5px;
 }
 
-.clients-icon {
+.clients__icon {
     fill: #afb1b8;
 }
 
-.clients-link:hover,
-.clients-link:focus {
+.clients__link:hover,
+.clients__link:focus {
     border: 1px solid #2196F3;
 }
 
-.clients-icon:hover,
-.clients-icon:focus {
+.clients__icon:hover,
+.clients__icon:focus {
     fill: #2196F3;
 }
 
-.clients-link:hover .clients-icon {
+.clients__link:hover .clients__icon {
     fill: #2196F3;
 }
 
-.clients-link:focus .clients-icon {
+.clients__link:focus .clients__icon {
     fill: #2196F3;
 }
 
@@ -940,7 +940,7 @@ color: #2196F3;
     display: block;
 }
 
-.ag {
+.footer__address {
     display: flex;
 }
 
@@ -1041,13 +1041,13 @@ color: #2196F3;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.net-link, .clients-link, .sm-link, .buttons-filter {
+.net-list__link, .clients__link, .sm-link, .buttons-filter {
     transition-property: background-color, color, fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.clients-icon, .net-icon {
+.clients__icon, .net-list__icon {
     transition-property: background-color, color, fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -1071,11 +1071,11 @@ color: #2196F3;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.services-list-container-item {
+.services-list__item {
     position: relative;
 }
 
-.services-names-1, .services-names-2, .services-names-3 {
+.services-list__desktop, .services-list__apps, .services-list__design {
     position: absolute;
     display: flex;
     justify-content: center;
@@ -1086,7 +1086,7 @@ color: #2196F3;
     margin-bottom: 0;
 }
 
-.services-names-1, .services-names-2, .services-names-3 {
+.services-list__desktop, .services-list__apps, .services-list__design {
     display: flex;
     justify-content: center;
     align-items: center;
