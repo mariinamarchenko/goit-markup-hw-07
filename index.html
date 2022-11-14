@@ -7,15 +7,16 @@
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
+    <!-- <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
-    />
-    <link rel="stylesheet" href="./css/styles.css" />
+    /> -->
+    <!-- <link rel="stylesheet" href="./css/styles.css" /> -->
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <header class="header">
@@ -367,7 +368,7 @@
     </main>
 
   <footer class="footer">
-    <div class="container footer-box">
+    <div class="container footer__box">
         <div class="footer__address">
         <ul class="address">
     <li><a href="./index.html" lang="en" class="address__logo">
@@ -435,7 +436,7 @@
       placeholder="E-mail"
       ></textarea>
 
-      <button class="form-button footer-button" type="submit">Підписатися
+      <button class="form-button form-button--send" type="submit">Підписатися
         <svg class="form-button__icon" width="24" height="24"> 
         <use href="./images/icons.svg#icon-icon-send"></use>
         </svg>
@@ -451,51 +452,51 @@
         <use href="./images/icons.svg#icon-close-black"></use>
         </svg>
         </button>
-        <h2 class="modal-header">Залиште свої дані, ми вам передзвонимо</h2>
+        <h2 class="modal__header">Залиште свої дані, ми вам передзвонимо</h2>
        
-        <form name="contact-form" >
-        <label class="contact-form__label" for="person-name">Ім'я</label>
-        <div class="contact-form__control">
-        <input class="contact-form__input" id="person-name" type="text" name="person-name" />
-        <svg class="contact-form__icon" width="12" height="12"> 
+        <form name="modal__contact-form" >
+        <label class="modal__contact-form-label" for="person-name">Ім'я</label>
+        <div class="modal__contact-form-control">
+        <input class="modal__contact-form-input" id="person-name" type="text" name="person-name" />
+        <svg class="modal__contact-form-icon" width="12" height="12"> 
         <use href="./images/icons.svg#icon-person"></use>
         </svg>
         </div>
 
-        <label class="contact-form__label" for="person-phone">Телефон</label>
-        <div class="contact-form__control">
-        <input class="contact-form__input" id="person-phone" type="tel" name="person-phone" />
-        <svg class="contact-form__icon" width="13" height="13"> 
+        <label class="modal__contact-form-label" for="person-phone">Телефон</label>
+        <div class="modal__contact-form-control">
+        <input class="modal__contact-form-input" id="person-phone" type="tel" name="person-phone" />
+        <svg class="modal__contact-form-icon" width="13" height="13"> 
         <use href="./images/icons.svg#icon-phone"></use>
         </svg>
         </div>
 
-        <label class="contact-form__label" for="person-mail">Пошта</label>
-        <div class="contact-form__control">
-        <input class="contact-form__input" id="person-mail" type="email" name="person-mail" />
-        <svg class="contact-form__icon" width="15" height="12"> 
+        <label class="modal__contact-form-label" for="person-mail">Пошта</label>
+        <div class="modal__contact-form-control">
+        <input class="modal__contact-form-input" id="person-mail" type="email" name="person-mail" />
+        <svg class="modal__contact-form-icon" width="15" height="12"> 
         <use href="./images/icons.svg#icon-mail"></use>
         </svg>
         </div>
         </form>
 
-        <label class="contact-form__label" for="person-comment">Коментар</label>
-        <textarea class="contact-form__textarea" 
+        <label class="modal__contact-form-label" for="person-comment">Коментар</label>
+        <textarea class="modal__contact-form-textarea" 
         id="person-comment" 
         name="person-comment" 
         placeholder="Введіть текст"
         ></textarea>
 
-        <div class="checkbox-terms">
+        <div class="modal__checkbox-terms">
         <input 
-        class="checkbox-terms__input visually-hidden" 
+        class="modal__checkbox-terms-input visually-hidden" 
         id="terms-checkbox" 
         type="checkbox" 
         name="terms-checkbox"
         />
-        <label class="checkbox-terms__label" for="terms-checkbox">
+        <label class="modal__checkbox-terms-label" for="terms-checkbox">
           Погоджуюся з розсилкою та приймаю
-          <a href="#" class="checkbox-terms__link">Умови договору</a>
+          <a href="#" class="modal__checkbox-terms-link">Умови договору</a>
         </label>
         </div>
 
