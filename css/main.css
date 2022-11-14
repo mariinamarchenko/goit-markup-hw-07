@@ -141,20 +141,6 @@
   height: auto;
 }
 
-@keyframes scale {
-  0% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-  }
-  50% {
-    -webkit-transform: scale(3);
-            transform: scale(3);
-  }
-  100% {
-    -webkit-transform: scale(2);
-            transform: scale(2);
-  }
-}
 ::-webkit-input-placeholder {
   font-family: "Roboto";
   font-style: normal;
@@ -164,6 +150,7 @@
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
+
 ::-moz-placeholder {
   font-family: "Roboto";
   font-style: normal;
@@ -173,6 +160,7 @@
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
+
 :-ms-input-placeholder {
   font-family: "Roboto";
   font-style: normal;
@@ -182,6 +170,7 @@
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
+
 ::-ms-input-placeholder {
   font-family: "Roboto";
   font-style: normal;
@@ -191,6 +180,7 @@
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
+
 ::placeholder {
   font-family: "Roboto";
   font-style: normal;
@@ -289,10 +279,6 @@ p ul {
 .address__item-map,
 .address__item-email {
   margin-bottom: 9px;
-}
-
-.address {
-  display: block;
 }
 
 .address {
@@ -722,6 +708,14 @@ p ul {
   -webkit-box-align: baseline;
       -ms-flex-align: baseline;
           align-items: baseline;
+}
+
+.footer {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .form-button {
