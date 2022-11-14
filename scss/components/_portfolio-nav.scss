@@ -1,57 +1,3 @@
-.portfolio-nav__contact:hover,
-.portfolio-nav__contact:focus {
-    color: #2196F3;
-}
-
-.portfolio-nav__studio:focus {
-    color: #2196F3;
-}
-
-.portfolio-nav__contact {
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14px;
-    color: #212121;
-    letter-spacing: 0.02em;
-}
-
-.portfolio-nav__studio:hover,
-.studio-link:focus {
-    color: #2196F3;
-}
-
-.portfolio-nav__studio {
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14px;
-    color: #212121;
-    letter-spacing: 0.02em;
-}
-
-.portfolio-nav__portfolio {
-    position: relative;
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14px;
-    color: #2196F3;
-    letter-spacing: 0.02em;
-    padding-bottom: 32px;
-}
-
-.portfolio-nav__portfolio::after {
-    position: absolute;
-    display: block;
-    width: 100%;
-    height: 4px;
-    background-color: currentColor;
-    content: "";
-    border-radius: 2px;
-    bottom: 0;
-}
-
 .portfolio-nav {
     display: flex;
     align-items: center;
@@ -62,13 +8,71 @@
     padding-bottom: 32px;
 }
 
-.portfolio-nav__portfolio, .portfolio-nav__contact {
+&__contact:hover,
+&__contact:focus {
+    color: #2196F3;
+}
+
+&__studio:focus {
+    color: #2196F3;
+}
+
+&__contact {
+    font-family: 'Roboto';
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14px;
+    color: #212121;
+    letter-spacing: 0.02em;
+}
+
+&__studio:hover,
+.studio-link:focus {
+    color: #2196F3;
+}
+
+&__studio {
+    font-family: 'Roboto';
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14px;
+    color: #212121;
+    letter-spacing: 0.02em;
+}
+
+&__portfolio {
+    font-family: 'Roboto';
+    position: relative;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14px;
+    color: #2196F3;
+    letter-spacing: 0.02em;
+    padding-bottom: 32px;
+}
+
+&__portfolio {
+    &::after {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: currentColor;
+    content: "";
+    border-radius: 2px;
+    bottom: 0;
+}
+
+&__portfolio, &__contact {
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-nav__studio {
+&__studio {
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);

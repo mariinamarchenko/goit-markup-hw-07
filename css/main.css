@@ -191,6 +191,11 @@
   color: rgba(117, 117, 117, 0.5);
 }
 
+.body {
+  font-family: "Roboto";
+  font-family: "Raleway";
+}
+
 ul {
   list-style: none;
   padding: 0;
@@ -236,6 +241,7 @@ p ul {
 }
 
 .address__map {
+  font-family: "Roboto";
   text-decoration: none;
   font-size: 14px;
   font-style: normal;
@@ -250,6 +256,7 @@ p ul {
 }
 
 .address__email {
+  font-family: "Roboto";
   text-decoration: none;
   font-size: 14px;
   font-style: normal;
@@ -264,6 +271,7 @@ p ul {
 }
 
 .address__phone {
+  font-family: "Roboto";
   text-decoration: none;
   font-style: normal;
   font-size: 14px;
@@ -296,7 +304,12 @@ p ul {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.address__item-map {
+  margin-top: 20px;
+}
+
 .advantages__title {
+  font-family: "Roboto";
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -306,6 +319,7 @@ p ul {
 }
 
 .advantages__text {
+  font-family: "Roboto";
   font-size: 14px;
   line-height: 1.71;
   color: #757575;
@@ -501,12 +515,13 @@ p ul {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contact-email:hover,
-.contact-email:focus {
+.contact__email:hover,
+.contact__email:focus {
   color: #2196F3;
 }
 
-.contact-email {
+.contact__email {
+  font-family: "Roboto";
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
@@ -515,12 +530,13 @@ p ul {
   letter-spacing: 0.02em;
 }
 
-.contact-phone:hover,
-.contact-phone:focus {
+.contact__phone:hover,
+.contact__phone:focus {
   color: #2196F3;
 }
 
-.contact-phone {
+.contact__phone {
+  font-family: "Roboto";
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
@@ -543,15 +559,7 @@ p ul {
   padding-left: 0;
 }
 
-.contact-email {
-  margin-left: 10px;
-}
-
-.contact__phone {
-  margin-left: 30px;
-}
-
-.contact-phone {
+.contact__email, .contact__phone {
   margin-left: 10px;
 }
 
@@ -641,10 +649,6 @@ p ul {
   padding-bottom: 0px;
   -webkit-padding-start: 0px;
           padding-inline-start: 0px;
-}
-
-.contact__email {
-  gap: 30px;
 }
 
 .contact__email--icon-link,
@@ -865,6 +869,7 @@ p ul {
 }
 
 .main__header {
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
@@ -969,6 +974,7 @@ p ul {
   -webkit-animation-duration: 1000ms;
           animation-duration: 1000ms;
   padding-left: 40px;
+  padding-top: 40px;
 }
 
 .modal__close-button {
@@ -1021,7 +1027,7 @@ p ul {
   padding-left: 0;
 }
 
-.modal-header {
+.modal__header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1029,7 +1035,6 @@ p ul {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-top: 40px;
   margin-right: 40px;
   padding-top: 0px;
 }
@@ -1248,6 +1253,7 @@ p ul {
 }
 
 .portfolio-nav__contact {
+  font-family: "Roboto";
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
@@ -1262,6 +1268,7 @@ p ul {
 }
 
 .portfolio-nav__studio {
+  font-family: "Roboto";
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
@@ -1271,6 +1278,7 @@ p ul {
 }
 
 .portfolio-nav__portfolio {
+  font-family: "Roboto";
   position: relative;
   text-decoration: none;
   font-weight: 500;
@@ -1327,6 +1335,7 @@ p ul {
 }
 
 .projects__name {
+  font-family: "Roboto";
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -1335,6 +1344,7 @@ p ul {
 }
 
 .projects__category {
+  font-family: "Roboto";
   font-size: 16px;
   line-height: 1.88;
   color: #757575;
@@ -1434,6 +1444,7 @@ p ul {
 }
 
 .services-list__header {
+  font-family: "Roboto";
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -1505,6 +1516,7 @@ p ul {
 }
 
 .site-nav__studio {
+  font-family: "Roboto";
   position: relative;
   text-decoration: none;
   font-weight: 500;
@@ -1537,6 +1549,7 @@ p ul {
 }
 
 .site-nav__portfolio {
+  font-family: "Roboto";
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
@@ -1547,6 +1560,7 @@ p ul {
 }
 
 .site-nav__contact {
+  font-family: "Roboto";
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
@@ -1658,6 +1672,7 @@ p ul {
 }
 
 .team__header {
+  font-family: "Roboto";
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -1666,6 +1681,7 @@ p ul {
 }
 
 .team__member-name {
+  font-family: "Roboto";
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -1674,6 +1690,7 @@ p ul {
 }
 
 .team__member-role {
+  font-family: "Roboto";
   font-size: 16px;
   line-height: 1.19;
   color: #757575;

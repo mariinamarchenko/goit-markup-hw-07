@@ -1,54 +1,3 @@
-.site-nav__studio {
-    position: relative;
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    color: #2196F3;
-    letter-spacing: 0.02em;
-    padding-bottom: 32px;
-}
-
-.site-nav__studio::after {
-    position: absolute;
-    display: block;
-    width: 100%;
-    height: 4px;
-    background-color: currentColor;
-    content: "";
-    border-radius: 2px;
-    bottom: 0;
-}
-
-.site-nav__portfolio:hover,
-.portfolio-link:focus {
-    color: #2196F3;
-}
-
-.site-nav__contact:hover,
-.site-nav__contact:focus {
-    color: #2196F3;
-}
-
-.site-nav__portfolio {
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14px;
-    color: #212121;
-    letter-spacing: 0.02em;
-    padding-bottom: 32px;
-}
-
-.site-nav__contact {
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14px;
-    color: #212121;
-    letter-spacing: 0.02em;
-}
-
 .site-nav {
     display: flex;
     align-items: center;
@@ -59,9 +8,64 @@
     padding-bottom: 32px;
 }
 
-.site-nav__studio,
-.site-nav__contact,
-.site-nav__portfolio {
+&__studio {
+    font-family: 'Roboto';
+    position: relative;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    color: #2196F3;
+    letter-spacing: 0.02em;
+    padding-bottom: 32px;
+}
+
+&__studio {
+    &::after {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: currentColor;
+    content: "";
+    border-radius: 2px;
+    bottom: 0;
+}
+
+&__portfolio:hover,
+.portfolio-link:focus {
+    color: #2196F3;
+}
+
+&__contact:hover,
+&__contact:focus {
+    color: #2196F3;
+}
+
+&__portfolio {
+    font-family: 'Roboto';
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14px;
+    color: #212121;
+    letter-spacing: 0.02em;
+    padding-bottom: 32px;
+}
+
+&__contact {
+    font-family: 'Roboto';
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14px;
+    color: #212121;
+    letter-spacing: 0.02em;
+}
+
+&__studio,
+&__contact,
+&__portfolio {
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);

@@ -3,26 +3,18 @@
 }
 
 .footer {
+    display: flex;
     padding-top: 60px;
     padding-bottom: 60px;
+    align-items: center;
 }
 
-.footer {
-    display: flex;
-}
-
-.footer__address {
+&__address {
     display: flex;
     margin-top: 20px;
 }
 
-.footer__box {
+&__box {
     display: flex;
     align-items: baseline;
-}
-
-.footer {
-    align-items: center;
-    padding-top: 60px;
-    padding-bottom: 60px;
 }

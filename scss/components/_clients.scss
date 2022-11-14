@@ -3,7 +3,7 @@
     padding-bottom: 94px;
 }
 
-.clients__header {
+&__header {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -14,20 +14,20 @@
     color: #212121;
 }
 
-.clients__header {
+&__header {
     margin-bottom: 50px;
 }
 
-.clients__list {
+&__list {
     display: flex;
     gap: 30px;
 }
 
-.clients__item {
+&__item {
     width: calc((100% - 150px) / 6);
 }
 
-.clients__link {
+&__link {
     width: 170px;
     height: 92px;
     border: 1px solid #AFB1B8;
@@ -38,35 +38,35 @@
     border-radius: 5px;
 }
 
-.clients__icon {
+&__icon {
     fill: #afb1b8;
 }
 
-.clients__link:hover,
-.clients__link:focus {
+&__link:hover,
+&__link:focus {
     border: 1px solid #2196F3;
 }
 
-.clients__icon:hover,
-.clients__icon:focus {
+&__icon:hover,
+&__icon:focus {
     fill: #2196F3;
 }
 
-.clients__link:hover .clients__icon {
+&__link:hover &__icon {
     fill: #2196F3;
 }
 
-.clients__link:focus .clients__icon {
+&__link:focus &__icon {
     fill: #2196F3;
 }
 
-.clients__link {
+&__link {
     transition-property: background-color, color, fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.clients__icon {
+&__icon {
     transition-property: background-color, color, fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);

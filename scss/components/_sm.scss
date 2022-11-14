@@ -1,10 +1,15 @@
-.sm__list {
+.sm {
+    margin-left: 70px;
+    display: inline-block;
+}
+
+&__list {
     display: flex;
     justify-content: center;
     gap: 10px;
 }
 
-.sm__link {
+&__link {
     width: 44px;
     height: 44px;
     border-radius: 50%;
@@ -14,22 +19,22 @@
     background-color: #48484F;
 }
 
-.sm__link:hover,
-.sm__link:focus {
+&__link:hover,
+&__link:focus {
     background-color: #2196F3;
     box-shadow: 0px 4px 4px 0px #00000040;
     fill: #FFFFFF;
 }
 
-.sm__link:hover .sm__icon {
+&__link:hover &__icon {
     fill: #FFFFFF;
 }
 
-.sm__icon {
+&__icon {
     fill: #FFFFFF;
 }
 
-.sm__header {
+&__header {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -40,16 +45,11 @@
     color: #FFFFFF;
 }
 
-.sm {
-    margin-left: 70px;
-    display: inline-block;
-}
-
-.sm__header {
+&__header {
     padding-bottom: 20px;
 }
 
-.sm__link {
+&__link {
     transition-property: background-color, color, fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);

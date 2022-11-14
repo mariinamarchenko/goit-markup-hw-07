@@ -1,18 +1,3 @@
-.projects__name {
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2;
-    color: #212121;
-    letter-spacing: 0.06em;
-}
-
-.projects__category {
-    font-size: 16px;
-    line-height: 1.88;
-    color: #757575;
-    letter-spacing: 0.03em;
-}
-
 .projects {
     display: flex;
     flex-wrap: wrap;
@@ -23,7 +8,24 @@
     padding-bottom: 94px;
 }
 
-.projects__item {
+&__name {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    color: #212121;
+    letter-spacing: 0.06em;
+}
+
+&__category {
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 1.88;
+    color: #757575;
+    letter-spacing: 0.03em;
+}
+
+&__item {
     position: relative;
     background: #FFFFFF;
     height: 404px;
@@ -32,7 +34,7 @@
     /* overflow: hidden; */
 }
 
-.projects__description {
+&__description {
     position: absolute;
     top: 0;
     left: 0;
@@ -54,21 +56,21 @@
     opacity: 0;
 }
 
-.projects__image-description {
+&__image-description {
     position: relative;
     overflow: hidden;
 }
 
-.projects__text {
+&__text {
     margin: 0;
 }
 
-.projects__link:hover .projects__description {
+&__link:hover &__description {
     transform: translateY(0);
     opacity: 1;
 }
 
-.projects__box {
+&__box {
     border-left: 1px solid #EEEEEE;
     border-right: 1px solid #EEEEEE;
     border-bottom: 1px solid #EEEEEE;
@@ -79,17 +81,17 @@
     overflow: hidden;
 }
 
-.projects__category {
+&__category {
     margin-top: 4px;
     margin-bottom: 0;
 }
 
-.projects__link:hover,
+&__link:hover,
 .projects__link:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.projects__link {
+&__link {
     display: block;
     text-decoration: none;
 }

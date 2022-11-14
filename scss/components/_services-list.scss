@@ -1,4 +1,9 @@
-.services-list__header {
+.services-list {
+    padding-bottom: 94px;
+}
+
+&__header {
+    font-family: 'Roboto';
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -6,29 +11,25 @@
     letter-spacing: 0.03em;
 }
 
-.services-list__header {
+&__header {
     text-align: center;
     border-radius: nullpx;
     margin-bottom: 50px;
 }
 
-.services-list {
-    padding-bottom: 94px;
-}
-
-.services-list__container {
+&__container {
     display: flex;
     justify-content: center;
     gap: 30px;
 }
 
-.services-list__item {
+&__item {
     position: relative;
 }
 
-.services-list__desktop,
-.services-list__apps,
-.services-list__design {
+&__desktop,
+&__apps,
+&__design {
     position: absolute;
     display: flex;
     justify-content: center;
@@ -39,9 +40,9 @@
     margin-bottom: 0;
 }
 
-.services-list__desktop,
-.services-list__apps,
-.services-list__design {
+&__desktop,
+&__apps,
+&__design {
     display: flex;
     justify-content: center;
     align-items: center;
